@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinema Web Application</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">SRPGDP Cinemas</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#movies">Movies</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to srpgdp cinemas</h2>
+      <p>Your ultimate movie experience starts here. Book your tickets now!</p>
+    </div>
+  </section>
+
+  <!-- Movies Section -->
+  <section id="movies" class="movies">
+    <div class="container">
+      <a href="#movies" class="btn-primary">Browse Movies</a>
+      <h2>Now Showing</h2>
+      <div class="movie-grid">
+        <!-- Movie 1 -->
+        <div class="movie-card">
+          <img src="images/movie1.jpeg" alt="Movie 1">
+          <h3>Home Alone</h3>
+          <p>Genre: Comedy | Duration: 120 mins</p>
+          <button class="btn-secondary">Book Now</button>
+        </div>
+        <!-- Movie 2 -->
+        <div class="movie-card">
+          <img src="images/movie2.jpg" alt="Movie 2">
+          <h3>Ratatouile</h3>
+          <p>Genre: Cartoon | Duration: 100 mins</p>
+          <button class="btn-secondary">Book Now</button>
+        </div>
+        <!-- Movie 3 -->
+        <div class="movie-card">
+          <img src="images/movie3.webp" alt="Movie 3">
+          <h3>Zathura</h3>
+          <p>Genre: Fantasy | Duration: 140 mins</p>
+          <button class="btn-secondary">Book Now</button>
+        </div>
+        <!-- Movie 4 -->
+        <div class="movie-card">
+          <img src="images/movie4.jpg" alt="Movie 4">
+          <h3>2.0</h3>
+          <p>Genre: Sci-Fi | Duration: 110 mins</p>
+          <button class="btn-secondary">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About SRPGDP Cinemas</h2>
+      <p>
+        SRPGDP Cinemas brings you the best movie experience with cutting-edge technology, luxurious seating, and the latest blockbusters. Enjoy the magic of cinema like never before!
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="https://formsubmit.co/admin@srpgdp.work.gd" method="POST">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" placeholder="How can we help you?"></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Send</button>
+      </form>
+    </div>
+  </section> 
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 SRPGDP Cinemas. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
